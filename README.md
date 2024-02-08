@@ -6,15 +6,15 @@ To fetch a web page and parse the results, you can use the requests library for 
 
 bash
 
-...
+```
 pip install requests beautifulsoup4
-...
+```
 
 Here's the modified code using the get_gold_to_usd_rate() function that fetches a page and parses the XAU to USD exchange rate:
 
 python
 
-...
+```
 import tkinter as tk
 from math import pi, sqrt, pow, log, sin, cos, tan, radians
 import requests
@@ -147,6 +147,6 @@ for button_text in buttons:
 
 # Run the Tkinter main loop
 root.mainloop()
-...
+```
 
 This example uses a hypothetical URL (https://example.com/xau-to-usd) and assumes a specific HTML structure for demonstration purposes. You need to replace it with the actual source providing the XAU to USD rates and adjust the HTML parsing based on the structure of the webpage.
