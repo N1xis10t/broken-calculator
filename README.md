@@ -1,6 +1,8 @@
+##Me
 Replace the code in the "get_gold_to_usd_rate()" function with code that fetches a page of search results from the internet, and then parses those results for the current XAU to USD exchange rate.
 1 / 2
-ChatGPT
+
+##ChatGPT
 
 To fetch a web page and parse the results, you can use the requests library for making HTTP requests and BeautifulSoup for parsing HTML. Make sure to install these libraries if you haven't already by running:
 
